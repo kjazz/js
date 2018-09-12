@@ -1,0 +1,5 @@
+projectKey=daimler
+serverUrl=http://sq:5660
+dashboardUrl=http://sq:5660/dashboard/index/daimler
+ceTaskId=AWXOejqoBv1rbipQ9-mQ
+ceTaskUrl=http://sq:5660/api/ce/task?id=AWXOejqoBv1rbipQ9-mQ

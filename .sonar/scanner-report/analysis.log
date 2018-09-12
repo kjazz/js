@@ -1,0 +1,144 @@
+Environment variables:
+  - BUILD_DISPLAY_NAME=#48
+  - BUILD_ID=48
+  - BUILD_NUMBER=48
+  - BUILD_TAG=jenkins-calltest-48
+  - BUILD_URL=http://sq:8080/job/calltest/48/
+  - EXECUTOR_NUMBER=0
+  - HOME=/home/centos
+  - HUDSON_COOKIE=833b3039-0e10-489c-af0d-523b2c49f7fd
+  - HUDSON_HOME=/var/lib/jenkins
+  - HUDSON_SERVER_COOKIE=a15a30f07e7492b4
+  - HUDSON_URL=http://sq:8080/
+  - JAVA_HOME=/opt/java/jdk1.8.0_121
+  - JENKINS_HOME=/var/lib/jenkins
+  - JENKINS_SERVER_COOKIE=a15a30f07e7492b4
+  - JENKINS_URL=http://sq:8080/
+  - JOB_BASE_NAME=calltest
+  - JOB_DISPLAY_URL=http://sq:8080/job/calltest/display/redirect
+  - JOB_NAME=calltest
+  - JOB_URL=http://sq:8080/job/calltest/
+  - LANG=en_US.UTF-8
+  - LOGNAME=centos
+  - NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  - NODE_LABELS=master
+  - NODE_NAME=master
+  - PATH=/opt/java/jdk1.8.0_121/bin:/opt/java/jdk1.8.0_121/bin:/sbin:/usr/sbin:/bin:/usr/bin
+  - PWD=/var/lib/jenkins/workspace/calltest
+  - RUN_CHANGES_DISPLAY_URL=http://sq:8080/job/calltest/48/display/redirect?page=changes
+  - RUN_DISPLAY_URL=http://sq:8080/job/calltest/48/display/redirect
+  - SHELL=/bin/bash
+  - SHLVL=2
+  - SONARQUBE_SCANNER_PARAMS={ "sonar.host.url" : "http:\/\/localhost:6730", "sonar.login" : "6ffa85fd49eba25578e71c65576fc7aa81d2f204"}
+  - SONAR_AUTH_TOKEN=6ffa85fd49eba25578e71c65576fc7aa81d2f204
+  - SONAR_CONFIG_NAME=SQ673
+  - SONAR_HOST_URL=http://localhost:6730
+  - SONAR_MAVEN_GOAL=sonar:sonar
+  - USER=centos
+  - WORKSPACE=/var/lib/jenkins/workspace/calltest
+  - XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+System properties:
+  - awt.toolkit=sun.awt.X11.XToolkit
+  - file.encoding=UTF-8
+  - file.encoding.pkg=sun.io
+  - file.separator=/
+  - java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.print.PSPrinterJob
+  - java.class.path=/opt/sonar-scanner-2.8/lib/sonar-scanner-cli-2.8.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=/opt/java/jdk1.8.0_121/jre/lib/endorsed
+  - java.ext.dirs=/opt/java/jdk1.8.0_121/jre/lib/ext:/usr/java/packages/lib/ext
+  - java.home=/opt/java/jdk1.8.0_121/jre
+  - java.io.tmpdir=/tmp
+  - java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_121-b13
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_121
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.121-b13
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Linux
+  - os.version=3.10.0-123.9.2.el7.x86_64
+  - path.separator=:
+  - project.home=/var/lib/jenkins/workspace/calltest
+  - scanner.home=/opt/sonar-scanner-2.8
+  - sun.arch.data.model=64
+  - sun.boot.class.path=/opt/java/jdk1.8.0_121/jre/lib/resources.jar:/opt/java/jdk1.8.0_121/jre/lib/rt.jar:/opt/java/jdk1.8.0_121/jre/lib/sunrsasign.jar:/opt/java/jdk1.8.0_121/jre/lib/jsse.jar:/opt/java/jdk1.8.0_121/jre/lib/jce.jar:/opt/java/jdk1.8.0_121/jre/lib/charsets.jar:/opt/java/jdk1.8.0_121/jre/lib/jfr.jar:/opt/java/jdk1.8.0_121/jre/classes
+  - sun.boot.library.path=/opt/java/jdk1.8.0_121/jre/lib/amd64
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -Dsonar.host.url=http://localhost:6730 -Dsonar.login=6ffa85fd49eba25578e71c65576fc7aa81d2f204 -Dproject.settings=/opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/sonar-project.properties -Dsonar.login=admin -Dsonar.password=admin -Dsonar.projectBaseDir=/opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov -Dsonar.verbose=true
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=UTF-8
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=unknown
+  - user.country=US
+  - user.dir=/var/lib/jenkins/workspace/calltest
+  - user.home=/home/centos
+  - user.language=en
+  - user.name=centos
+  - user.timezone=Europe/Paris
+SonarQube plugins:
+  - Branch 1.0.0.507 (branch)
+  - SonarQube :: Plugins :: SCM :: SVN 1.6.0.860 (scmsvn)
+  - SonarPLSQL 3.2.0.1753 (plsql)
+  - SonarC# 6.5.0.3766 (csharp)
+  - SonarJava 5.3.0.13828 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - Flex 2.3 (flex)
+  - SonarXML 1.5.0.1373 (xml)
+  - SonarTS 1.1.0.1079 (typescript)
+  - SonarVB 5.0.1.374 (vbnet)
+  - SonarSwift 3.2.0.2276 (swift)
+  - SonarCFamily 5.1.0.10083 (cpp)
+  - SonarPython 1.10.0.2131 (python)
+  - SonarRPG 2.3.0.1187 (rpg)
+  - SonarPLI 1.8.0.1302 (pli)
+  - SonarTSQL 1.2.0.2539 (tsql)
+  - SonarVB6 2.4.0.1305 (vb)
+  - SonarJS 3.2.0.5506 (javascript)
+  - License 3.3.0.1341 (license)
+  - SonarCOBOL 4.2.0.2826 (cobol)
+  - SonarQube :: Plugins :: SCM :: Git 1.3.0.869 (scmgit)
+  - SonarPHP 2.11.0.2485 (php)
+  - Developer 1.0.0.240 (developer)
+  - SonarABAP 3.6.0.1269 (abap)
+  - Governance 2.0.2.3011 (governance)
+Global properties:
+  - sonar.cobol.dialect=ibm-enterprise-cobol
+  - sonar.cobol.file.suffixes=cob,cbl
+  - sonar.core.id=18548e4a5d5b8c4
+  - sonar.core.startTime=2018-04-30T12:38:41+0200
+  - sonar.forceAuthentication=false
+  - sonar.issue.ignore.multicriteria=1
+  - sonar.issue.ignore.multicriteria.1.resourceKey=**/*.cpp
+  - sonar.issue.ignore.multicriteria.1.ruleKey=*
+Settings for module: BRANCH_TEST1
+  - sonar.genericcoverage.unitTestReportPaths=target/TEST*.xml
+  - sonar.host.url=http://localhost:6730
+  - sonar.javascript.lcov.reportPath=report/lcov.dat
+  - sonar.login=******
+  - sonar.password=******
+  - sonar.projectBaseDir=/opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov
+  - sonar.projectKey=BRANCH_TEST1
+  - sonar.projectName=BRANCH_TEST
+  - sonar.projectVersion=1.0
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=sources
+  - sonar.verbose=true
+  - sonar.working.directory=/opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/.sonar
