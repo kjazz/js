@@ -1,361 +1,332 @@
-21:35:56.318 INFO: Scanner configuration file: /opt/sonar-scanner-3.2.0.1227-linux/conf/sonar-scanner.properties
-21:35:56.324 INFO: Project root configuration file: /opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/sonar-project.properties
-21:35:56.354 INFO: SonarQube Scanner 3.2.0.1227
-21:35:56.354 INFO: Java 1.8.0_121 Oracle Corporation (64-bit)
-21:35:56.354 INFO: Linux 3.10.0-123.9.2.el7.x86_64 amd64
-21:35:56.532 DEBUG: keyStore is : 
-21:35:56.532 DEBUG: keyStore type is : jks
-21:35:56.533 DEBUG: keyStore provider is : 
-21:35:56.533 DEBUG: init keystore
-21:35:56.533 DEBUG: init keymanager of type SunX509
-21:35:56.634 DEBUG: Create: /home/centos/.sonar/cache
-21:35:56.635 INFO: User cache: /home/centos/.sonar/cache
-21:35:56.635 DEBUG: Create: /home/centos/.sonar/cache/_tmp
-21:35:56.639 DEBUG: Extract sonar-scanner-api-batch in temp...
-21:35:56.651 DEBUG: Get bootstrap index...
-21:35:56.651 DEBUG: Download: http://localhost:5660/batch/index
-21:35:56.714 DEBUG: Get bootstrap completed
-21:35:56.737 DEBUG: Create isolated classloader...
-21:35:56.746 DEBUG: Start temp cleaning...
-21:35:56.752 DEBUG: Temp cleaning done
-21:35:56.753 DEBUG: Execution getVersion
-21:35:56.755 INFO: SonarQube server 5.6.6
-21:35:56.755 INFO: Default locale: "en_US", source code encoding: "UTF-8"
-21:35:56.756 DEBUG: Work directory: /opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/.scannerwork
-21:35:56.757 DEBUG: Execution execute
-21:35:56.968 DEBUG: Publish global mode
-21:35:57.057 INFO: Load global repositories
-21:35:57.137 DEBUG: GET 200 http://localhost:5660/batch/global | time=80ms
-21:35:57.196 INFO: Load global repositories (done) | time=140ms
-21:35:57.207 INFO: Server id: 18548e4a5d5b8c4
-21:35:57.216 INFO: User cache: /home/centos/.sonar/cache
-21:35:57.463 INFO: Load plugins index
-21:35:57.467 DEBUG: GET 200 http://localhost:5660/deploy/plugins/index.txt | time=3ms
-21:35:57.467 INFO: Load plugins index (done) | time=4ms
-21:35:57.468 DEBUG: Load plugins
-21:35:57.557 DEBUG: Load plugins (done) | time=88ms
-21:35:57.568 DEBUG: API compatibility mode is enabled on plugin ReSharper [resharper] (built with API lower than 5.2)
-21:35:57.569 DEBUG: API compatibility mode is enabled on plugin PMD [pmd] (built with API lower than 5.2)
-21:35:57.569 DEBUG: API compatibility mode is enabled on plugin SVN [scmsvn] (built with API lower than 5.2)
-21:35:57.571 DEBUG: API compatibility mode is enabled on plugin Git [scmgit] (built with API lower than 5.2)
-21:35:57.572 DEBUG: API compatibility mode is enabled on plugin Generic Coverage [genericcoverage] (built with API lower than 5.2)
-21:35:57.781 DEBUG: Plugins:
-21:35:57.781 DEBUG:   * Developer Cockpit 1.12 (devcockpit)
-21:35:57.782 DEBUG:   * SonarPython 1.8.0.1496 (python)
-21:35:57.782 DEBUG:   * GitHub 1.4.1.822 (github)
-21:35:57.782 DEBUG:   * SonarCFamily 4.11.0.8443 (cpp)
-21:35:57.782 DEBUG:   * ReSharper 2.1-SNAPSHOT (resharper)
-21:35:57.782 DEBUG:   * PMD 2.6 (pmd)
-21:35:57.782 DEBUG:   * SonarPLI 1.6.0.1010 (pli)
-21:35:57.782 DEBUG:   * SVN 1.3 (scmsvn)
-21:35:57.782 DEBUG:   * SonarJS 3.0.0.4962 (javascript)
-21:35:57.782 DEBUG:   * C# 5.11.0.1761 (csharp)
-21:35:57.783 DEBUG:   * Findbugs 3.6.0 (findbugs)
-21:35:57.783 DEBUG:   * SonarJava 4.15.0.12310 (java)
-21:35:57.783 DEBUG:   * SonarCOBOL 4.0.2.2656 (cobol)
-21:35:57.783 DEBUG:   * LDAP 2.1.0.507 (ldap)
-21:35:57.783 DEBUG:   * Web 2.5.0.476 (web)
-21:35:57.783 DEBUG:   * Git 1.2 (scmgit)
-21:35:57.783 DEBUG:   * SonarPHP 2.10.0.2087 (php)
-21:35:57.783 DEBUG:   * SonarTS 1.1.0.1079 (typescript)
-21:35:57.783 DEBUG:   * Checkstyle 3.7 (checkstyle)
-21:35:57.783 DEBUG:   * Generic Coverage 1.2 (genericcoverage)
-21:35:57.783 DEBUG:   * SonarSwift 2.1.0.1504 (swift)
-21:35:57.783 DEBUG:   * Governance 1.2.1.1926 (governance)
-21:35:58.453 INFO: governance EVALUATION [Expiration: 2018-09-16, Server: *]
-21:35:58.518 INFO: Process project properties
-21:35:58.521 DEBUG: Process project properties (done) | time=3ms
-21:35:58.676 INFO: Load project repositories
-21:35:58.711 DEBUG: GET 200 http://localhost:5660/batch/project.protobuf?key=HARDCORE_TESTER_X | time=34ms
-21:35:58.781 INFO: Load project repositories (done) | time=105ms
-21:35:58.793 INFO: Execute project builders
-21:35:58.794 INFO: Execute project builders (done) | time=1ms
-21:35:58.861 DEBUG: Available languages:
-21:35:58.861 DEBUG:   * Python => "py"
-21:35:58.861 DEBUG:   * C => "c"
-21:35:58.861 DEBUG:   * C++ => "cpp"
-21:35:58.861 DEBUG:   * Objective-C => "objc"
-21:35:58.861 DEBUG:   * PL/I => "pli"
-21:35:58.861 DEBUG:   * JavaScript => "js"
-21:35:58.861 DEBUG:   * C# => "cs"
-21:35:58.861 DEBUG:   * JSP => "jsp"
-21:35:58.862 DEBUG:   * Java => "java"
-21:35:58.862 DEBUG:   * COBOL => "cobol"
-21:35:58.862 DEBUG:   * Web => "web"
-21:35:58.862 DEBUG:   * PHP => "php"
-21:35:58.862 DEBUG:   * TypeScript => "ts"
-21:35:58.862 DEBUG:   * Swift => "swift"
-21:35:58.868 INFO: Load quality profiles
-21:35:58.897 DEBUG: GET 200 http://localhost:5660/api/qualityprofiles/search.protobuf?projectKey=HARDCORE_TESTER_X | time=29ms
-21:35:58.900 INFO: Load quality profiles (done) | time=32ms
-21:35:58.907 INFO: Load active rules
-21:35:59.005 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=c-sonar-way-69692&p=1&ps=500 | time=97ms
-21:35:59.124 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=cobol-sonar-way-12610&p=1&ps=500 | time=71ms
-21:35:59.227 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=cpp-sonar-way-81269&p=1&ps=500 | time=101ms
-21:35:59.340 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=cs-sonar-way-38158&p=1&ps=500 | time=109ms
-21:35:59.492 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=java-sonar-way-40845&p=1&ps=500 | time=147ms
-21:35:59.555 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=js-sonar-way-26152&p=1&ps=500 | time=58ms
-21:35:59.582 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=jsp-findbugs-security-jsp-14403&p=1&ps=500 | time=23ms
-21:35:59.644 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=objc-sonar-way-55159&p=1&ps=500 | time=61ms
-21:35:59.685 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=php-sonar-way-77220&p=1&ps=500 | time=39ms
-21:35:59.714 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=pli-sonar-way-26613&p=1&ps=500 | time=28ms
-21:35:59.741 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=py-kris-way-32250&p=1&ps=500 | time=26ms
-21:35:59.779 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=swift-sonar-way-93061&p=1&ps=500 | time=37ms
-21:35:59.811 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=ts-sonar-way-17569&p=1&ps=500 | time=30ms
-21:35:59.838 DEBUG: GET 200 http://localhost:5660/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives&activation=true&qprofile=web-sonar-way-76764&p=1&ps=500 | time=26ms
-21:35:59.853 INFO: Load active rules (done) | time=946ms
-21:35:59.890 INFO: Publish mode
-21:35:59.890 DEBUG: Start recursive analysis of project modules
-21:35:59.891 INFO: -------------  Scan HARDCORE_TESTER_X
-21:36:00.160 INFO: Load server rules
-21:36:00.298 DEBUG: GET 200 http://localhost:5660/api/rules/list.protobuf | time=136ms
-21:36:00.335 INFO: Load server rules (done) | time=175ms
-21:36:00.457 DEBUG: Initializers : 
-21:36:00.458 INFO: Base dir: /opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov
-21:36:00.458 INFO: Working dir: /opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/.scannerwork
-21:36:00.464 INFO: Source paths: sources
-21:36:00.464 INFO: Source encoding: UTF-8, default locale: en_US
-21:36:00.465 INFO: Index files
-21:36:00.502 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
-21:36:00.502 DEBUG: Declared extensions of language C were converted to sonar.lang.patterns.c : **/*.c,**/*.h
-21:36:00.502 DEBUG: Declared extensions of language C++ were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
-21:36:00.503 DEBUG: Declared extensions of language Objective-C were converted to sonar.lang.patterns.objc : **/*.m
-21:36:00.503 DEBUG: Declared extensions of language PL/I were converted to sonar.lang.patterns.pli : **/*.pli
-21:36:00.503 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js
-21:36:00.503 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
-21:36:00.503 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp
-21:36:00.503 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav,**/*.jsp
-21:36:00.503 DEBUG: Declared extensions of language COBOL were converted to sonar.lang.patterns.cobol : **/*.cob,**/*.cbl
-21:36:00.503 DEBUG: Declared extensions of language Web were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.rhtml,**/*.shtml
-21:36:00.504 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
-21:36:00.504 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
-21:36:00.504 DEBUG: Declared extensions of language Swift were converted to sonar.lang.patterns.swift : **/*.swift
-21:36:00.513 DEBUG: Language of file 'sources/com/company/Car.js' is detected to be 'js'
-21:36:00.525 DEBUG: Language of file 'sources/com/company/Truck.js' is detected to be 'js'
-21:36:00.527 DEBUG: Language of file 'sources/com/company/Vehicle.js' is detected to be 'js'
-21:36:00.529 DEBUG: Language of file 'sources/com/company/Trotinette.js' is detected to be 'js'
-21:36:00.531 DEBUG: Language of file 'sources/com/company/Wozek.js' is detected to be 'js'
-21:36:00.532 DEBUG: Language of file 'sources/com/company/Bus.js' is detected to be 'js'
-21:36:00.533 DEBUG: Language of file 'sources/dir1/File2.js' is detected to be 'js'
-21:36:00.534 DEBUG: Language of file 'sources/dir1/File3.js' is detected to be 'js'
-21:36:00.535 DEBUG: Language of file 'sources/dir1/dir2/pupa.js' is detected to be 'js'
-21:36:00.535 DEBUG: Language of file 'sources/Person2.js' is detected to be 'js'
-21:36:00.537 DEBUG: Language of file 'sources/File.js' is detected to be 'js'
-21:36:00.538 DEBUG: Language of file 'sources/foo2.js' is detected to be 'js'
-21:36:00.539 DEBUG: Language of file 'sources/Person.js' is detected to be 'js'
-21:36:00.540 DEBUG: Language of file 'sources/foo.js' is detected to be 'js'
-21:36:00.542 DEBUG: Language of file 'sources/person2.js' is detected to be 'js'
-21:36:00.544 DEBUG: Language of file 'sources/Me.js' is detected to be 'js'
-21:36:00.545 DEBUG: Language of file 'sources/foo3.js' is detected to be 'js'
-21:36:00.545 DEBUG: Language of file 'sources/Person3.js' is detected to be 'js'
-21:36:00.546 DEBUG: Language of file 'sources/person.js' is detected to be 'js'
-21:36:00.548 INFO: 19 files indexed
-21:36:00.555 INFO: Quality profile for js: Sonar way
-21:36:00.589 DEBUG: Code colorizer, supported languages: 
-21:36:01.796 DEBUG: 'Python Squid Sensor' skipped because there is no related file in current project
-21:36:01.796 DEBUG: 'C' skipped because there is no related file in current project
-21:36:01.797 DEBUG: 'C++' skipped because there is no related file in current project
-21:36:01.797 DEBUG: 'Objective-C' skipped because there is no related file in current project
-21:36:01.797 DEBUG: 'gcov' skipped because there is no related file in current project
-21:36:01.797 DEBUG: 'llvm-cov' skipped because there is no related file in current project
-21:36:01.798 DEBUG: 'cppunit' skipped because there is no related file in current project
-21:36:01.798 DEBUG: 'VisualStudioCoverage' skipped because there is no related file in current project
-21:36:01.798 DEBUG: 'bullseye' skipped because there is no related file in current project
-21:36:01.798 DEBUG: 'PliSquidSensor' skipped because there is no related file in current project
-21:36:01.798 DEBUG: 'C#' skipped because there is no related file in current project
-21:36:01.800 DEBUG: 'jsp' skipped because there is no related file in current project
-21:36:01.800 DEBUG: 'FindBugs Sensor' skipped because there is no related file in current project
-21:36:01.800 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
-21:36:01.800 DEBUG: 'JaCoCoSensor' skipped because there is no related file in current project
-21:36:01.800 DEBUG: 'JaCoCoItSensor' skipped because there is no related file in current project
-21:36:01.800 DEBUG: 'JaCoCoOverallSensor' skipped because there is no related file in current project
-21:36:01.801 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
-21:36:01.801 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
-21:36:01.801 DEBUG: 'Web' skipped because there is no related file in current project
-21:36:01.801 DEBUG: 'PHP sensor' skipped because there is no related file in current project
-21:36:01.801 DEBUG: 'TypeScript Sensor' skipped because there is no related file in current project
-21:36:01.802 DEBUG: 'TypeScript LCOV Coverage Sensor' skipped because there is no related file in current project
-21:36:01.802 DEBUG: 'Swift Squid Sensor' skipped because there is no related file in current project
-21:36:01.803 DEBUG: Sensors : Lines Sensor (wrapped) -> GenericCoverageSensor -> SCM Sensor (wrapped) -> JavaScript Squid Sensor (wrapped) -> C# Unit Tests Coverage Report Import (wrapped) -> C# Integration Tests Coverage Report Import (wrapped) -> C# Unit Test Results Import (wrapped) -> SonarJavaXmlFileSensor (wrapped) -> Analyzer for "php.ini" files (wrapped) -> Zero Coverage Sensor (wrapped) -> Code Colorizer Sensor (wrapped) -> CPD Block Indexer (wrapped)
-21:36:01.823 INFO: devcockpit EVALUATION [Expiration: 2018-09-16, Server: *]
-21:36:01.828 INFO: Sensor Lines Sensor (wrapped)
-21:36:01.842 INFO: Sensor Lines Sensor (wrapped) (done) | time=14ms
-21:36:01.842 INFO: Sensor GenericCoverageSensor
-21:36:01.847 INFO: Imported coverage data for 0 files
-21:36:01.847 INFO: Imported IT coverage data for 0 files
-21:36:01.847 INFO: Imported Overall coverage data for 0 files
-21:36:01.857 INFO: Parsing /opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/target/TEST*.xml
-21:36:01.858 INFO: Sensor GenericCoverageSensor (done) | time=16ms
-21:36:01.858 INFO: Sensor SCM Sensor (wrapped)
-21:36:01.868 INFO: SCM provider for this project is: git
-21:36:01.872 INFO: 16 files to be analyzed
-21:36:01.896 DEBUG: readpipe [git, --version],/usr/bin
-21:36:01.908 DEBUG: readpipe may return 'git version 1.8.3.1'
-21:36:01.908 DEBUG: remaining output:
+00:18:36.104 INFO: Scanner configuration file: /opt/sonar-scanner-3.2.0.1227-linux/conf/sonar-scanner.properties
+00:18:36.112 INFO: Project root configuration file: /opt/ex/javascript-sonar-runner-lcov/sonar-project.properties
+00:18:36.138 INFO: SonarQube Scanner 3.2.0.1227
+00:18:36.138 INFO: Java 1.8.0_112 Oracle Corporation (64-bit)
+00:18:36.138 INFO: Linux 3.10.0-123.9.2.el7.x86_64 amd64
+00:18:36.345 DEBUG: keyStore is : 
+00:18:36.346 DEBUG: keyStore type is : jks
+00:18:36.346 DEBUG: keyStore provider is : 
+00:18:36.346 DEBUG: init keystore
+00:18:36.346 DEBUG: init keymanager of type SunX509
+00:18:36.475 DEBUG: Create: /home/centos/.sonar/cache
+00:18:36.476 INFO: User cache: /home/centos/.sonar/cache
+00:18:36.476 DEBUG: Create: /home/centos/.sonar/cache/_tmp
+00:18:36.480 DEBUG: Extract sonar-scanner-api-batch in temp...
+00:18:36.491 DEBUG: Get bootstrap index...
+00:18:36.491 DEBUG: Download: http://localhost:6750/batch/index
+00:18:36.563 DEBUG: Get bootstrap completed
+00:18:36.577 DEBUG: Create isolated classloader...
+00:18:36.595 DEBUG: Start temp cleaning...
+00:18:36.603 DEBUG: Temp cleaning done
+00:18:36.604 DEBUG: Execution getVersion
+00:18:36.609 INFO: SonarQube server 6.7.5
+00:18:36.609 INFO: Default locale: "en_US", source code encoding: "UTF-8"
+00:18:36.610 DEBUG: Work directory: /opt/ex/javascript-sonar-runner-lcov/.scannerwork
+00:18:36.611 DEBUG: Execution execute
+00:18:36.924 INFO: Publish mode
+00:18:37.114 INFO: Load global settings
+00:18:37.208 DEBUG: GET 200 http://localhost:6750/api/settings/values.protobuf | time=65ms
+00:18:37.290 INFO: Load global settings (done) | time=177ms
+00:18:37.308 INFO: Server id: 7FD79B06-AWOaOnANu6cmwdFanQUE
+00:18:37.325 INFO: User cache: /home/centos/.sonar/cache
+00:18:37.780 INFO: Load plugins index
+00:18:37.793 DEBUG: GET 200 http://localhost:6750/api/plugins/installed | time=12ms
+00:18:37.857 INFO: Load plugins index (done) | time=77ms
+00:18:37.858 DEBUG: Load plugins
+00:18:38.129 DEBUG: Load plugins (done) | time=271ms
+00:18:38.443 DEBUG: Plugins:
+00:18:38.443 DEBUG:   * GitHub 1.4.2.1027 (github)
+00:18:38.443 DEBUG:   * SonarCFamily 5.1.1.10386 (cpp)
+00:18:38.443 DEBUG:   * SonarRPG 2.3.0.1187 (rpg)
+00:18:38.443 DEBUG:   * SonarPLI 1.9.0.1349 (pli)
+00:18:38.444 DEBUG:   * SonarTSQL 1.2.0.2539 (tsql)
+00:18:38.444 DEBUG:   * SonarVB6 2.4.0.1305 (vb)
+00:18:38.444 DEBUG:   * Branch 1.0.0.507 (branch)
+00:18:38.444 DEBUG:   * SonarJS 4.2.1.6529 (javascript)
+00:18:38.444 DEBUG:   * SonarPLSQL 3.2.0.1753 (plsql)
+00:18:38.444 DEBUG:   * License 3.4 (license)
+00:18:38.445 DEBUG:   * SonarC# 7.5.0.6605 (csharp)
+00:18:38.447 DEBUG:   * SonarJava 5.9.2.16552 (java)
+00:18:38.447 DEBUG:   * SonarCOBOL 4.3.0.3019 (cobol)
+00:18:38.447 DEBUG:   * SonarHTML 3.0.1.1444 (web)
+00:18:38.447 DEBUG:   * Git 1.4.1.1128 (scmgit)
+00:18:38.447 DEBUG:   * SAML 2.0 Authentication for SonarQube 1.0.0.116 (authsaml)
+00:18:38.447 DEBUG:   * Developer 1.0.0.240 (developer)
+00:18:38.447 DEBUG:   * SonarTS 1.8.0.3332 (typescript)
+00:18:38.447 DEBUG:   * SonarVB 5.2.0.604 (vbnet)
+00:18:38.447 DEBUG:   * SonarABAP 3.6.0.1269 (abap)
+00:18:38.448 DEBUG:   * Governance 2.0.3 (governance)
+00:18:38.448 DEBUG:   * SonarSwift 4.0.0.2853 (swift)
+00:18:39.454 INFO: Process project properties
+00:18:39.466 DEBUG: Process project properties (done) | time=12ms
+00:18:39.474 INFO: Load branch configuration
+00:18:39.475 INFO: Load branch configuration (done) | time=1ms
+00:18:39.476 INFO: Load project repositories
+00:18:39.610 DEBUG: GET 200 http://localhost:6750/batch/project.protobuf?key=HARDCORE_TESTER_10 | time=134ms
+00:18:39.649 INFO: Load project repositories (done) | time=173ms
+00:18:39.652 INFO: Execute project builders
+00:18:39.652 INFO: Execute project builders (done) | time=0ms
+00:18:39.795 DEBUG: Available languages:
+00:18:39.795 DEBUG:   * C => "c"
+00:18:39.795 DEBUG:   * C++ => "cpp"
+00:18:39.795 DEBUG:   * Objective-C => "objc"
+00:18:39.795 DEBUG:   * RPG => "rpg"
+00:18:39.795 DEBUG:   * PL/I => "pli"
+00:18:39.795 DEBUG:   * T-SQL => "tsql"
+00:18:39.795 DEBUG:   * Vb => "vb"
+00:18:39.795 DEBUG:   * JavaScript => "js"
+00:18:39.795 DEBUG:   * PL/SQL => "plsql"
+00:18:39.796 DEBUG:   * C# => "cs"
+00:18:39.796 DEBUG:   * Java => "java"
+00:18:39.796 DEBUG:   * COBOL => "cobol"
+00:18:39.796 DEBUG:   * HTML => "web"
+00:18:39.796 DEBUG:   * TypeScript => "ts"
+00:18:39.796 DEBUG:   * Visual Basic .NET => "vbnet"
+00:18:39.796 DEBUG:   * ABAP => "abap"
+00:18:39.796 DEBUG:   * Swift => "swift"
+00:18:39.808 INFO: Load quality profiles
+00:18:39.855 DEBUG: GET 200 http://localhost:6750/api/qualityprofiles/search.protobuf?projectKey=HARDCORE_TESTER_10 | time=47ms
+00:18:39.874 INFO: Load quality profiles (done) | time=66ms
+00:18:39.895 INFO: Load active rules
+00:18:40.022 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=cpp-sonar-way-81269&p=1&ps=500 | time=126ms
+00:18:40.163 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=c-sonar-way-69692&p=1&ps=500 | time=63ms
+00:18:40.200 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWLHMwoZnLt1OdUoJ-YU&p=1&ps=500 | time=22ms
+00:18:40.242 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=js-sonar-way-26152&p=1&ps=500 | time=40ms
+00:18:40.283 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=pli-sonar-way-26613&p=1&ps=500 | time=35ms
+00:18:40.311 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWLHMw0enLt1OdUoJ-hg&p=1&ps=500 | time=27ms
+00:18:40.335 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWLHMwzanLt1OdUoJ-gX&p=1&ps=500 | time=19ms
+00:18:40.386 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWLHMw8QnLt1OdUoJ-kF&p=1&ps=500 | time=50ms
+00:18:40.498 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=cs-sonar-way-38158&p=1&ps=500 | time=102ms
+00:18:40.669 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=java-test_api-35835&p=1&ps=500 | time=145ms
+00:18:40.722 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=cobol-sonar-way-12610&p=1&ps=500 | time=40ms
+00:18:40.757 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWTcjvZY1WSAeODkPKPy&p=1&ps=500 | time=30ms
+00:18:40.803 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=vbnet-sonar-way-17680&p=1&ps=500 | time=46ms
+00:18:40.835 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWLHMxY7nLt1OdUoJ--z&p=1&ps=500 | time=30ms
+00:18:40.886 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=objc-sonar-way-55159&p=1&ps=500 | time=48ms
+00:18:40.915 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=swift-sonar-way-93061&p=1&ps=500 | time=25ms
+00:18:40.940 DEBUG: GET 200 http://localhost:6750/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=ts-sonar-way-17569&p=1&ps=500 | time=19ms
+00:18:40.961 INFO: Load active rules (done) | time=1066ms
+00:18:40.964 INFO: Load metrics repository
+00:18:40.975 DEBUG: GET 200 http://localhost:6750/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=11ms
+00:18:40.997 INFO: Load metrics repository (done) | time=33ms
+00:18:41.053 INFO: Project key: HARDCORE_TESTER_10
+00:18:41.053 DEBUG: Start recursive analysis of project modules
+00:18:41.054 INFO: -------------  Scan HARDCORE_TESTER_10
+00:18:41.302 INFO: Load server rules
+00:18:41.355 DEBUG: GET 200 http://localhost:6750/api/rules/list.protobuf | time=53ms
+00:18:41.384 INFO: Load server rules (done) | time=81ms
+00:18:41.455 INFO: Base dir: /opt/ex/javascript-sonar-runner-lcov
+00:18:41.455 INFO: Working dir: /opt/ex/javascript-sonar-runner-lcov/.scannerwork
+00:18:41.457 INFO: Source paths: sources
+00:18:41.458 INFO: Source encoding: UTF-8, default locale: en_US
+00:18:41.578 DEBUG: Declared extensions of language C were converted to sonar.lang.patterns.c : **/*.c,**/*.h
+00:18:41.578 DEBUG: Declared extensions of language C++ were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
+00:18:41.578 DEBUG: Declared extensions of language Objective-C were converted to sonar.lang.patterns.objc : **/*.m
+00:18:41.579 DEBUG: Declared extensions of language RPG were converted to sonar.lang.patterns.rpg : **/*.rpg,**/*.rpgle,**/*.rpg,**/*.rpgle
+00:18:41.579 DEBUG: Declared extensions of language PL/I were converted to sonar.lang.patterns.pli : **/*.pli
+00:18:41.579 DEBUG: Declared extensions of language T-SQL were converted to sonar.lang.patterns.tsql : **/*.tsql
+00:18:41.579 DEBUG: Declared extensions of language Vb were converted to sonar.lang.patterns.vb : **/*.vb,**/*.bas,**/*.frm,**/*.cls,**/*.ctl,**/*.vb,**/*.bas,**/*.frm,**/*.cls,**/*.ctl
+00:18:41.579 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.vue
+00:18:41.579 DEBUG: Declared extensions of language PL/SQL were converted to sonar.lang.patterns.plsql : **/*.sql,**/*.pks,**/*.pkb
+00:18:41.580 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+00:18:41.580 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+00:18:41.581 DEBUG: Declared extensions of language COBOL were converted to sonar.lang.patterns.cobol : **/*.cob,**/*.cbl
+00:18:41.581 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.jspf,**/*.jspx,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml
+00:18:41.581 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+00:18:41.581 DEBUG: Declared extensions of language Visual Basic .NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+00:18:41.581 DEBUG: Declared extensions of language ABAP were converted to sonar.lang.patterns.abap : **/*.abap,**/*.ab4,**/*.flow,**/*.asprog
+00:18:41.582 DEBUG: Declared extensions of language Swift were converted to sonar.lang.patterns.swift : **/*.swift
+00:18:41.596 DEBUG: Initializers : 
+00:18:41.598 INFO: Index files
+00:18:41.641 DEBUG: 'sources/com/company/Car.js' indexed with language 'js'
+00:18:41.649 DEBUG: 'sources/com/company/Truck.js' indexed with language 'js'
+00:18:41.652 DEBUG: 'sources/com/company/Vehicle.js' indexed with language 'js'
+00:18:41.655 DEBUG: 'sources/com/company/Trotinette.js' indexed with language 'js'
+00:18:41.656 DEBUG: 'sources/com/company/Wozek.js' indexed with language 'js'
+00:18:41.656 DEBUG: 'sources/com/company/Bus.js' indexed with language 'js'
+00:18:41.658 DEBUG: 'sources/dir1/File2.js' indexed with language 'js'
+00:18:41.658 DEBUG: 'sources/dir1/File3.js' indexed with language 'js'
+00:18:41.659 DEBUG: 'sources/dir1/dir2/pupa.js' indexed with language 'js'
+00:18:41.659 DEBUG: 'sources/Person2.js' indexed with language 'js'
+00:18:41.662 DEBUG: 'sources/File.js' indexed with language 'js'
+00:18:41.662 DEBUG: 'sources/foo2.js' indexed with language 'js'
+00:18:41.663 DEBUG: 'sources/Person.js' indexed with language 'js'
+00:18:41.664 DEBUG: 'sources/foo.js' indexed with language 'js'
+00:18:41.664 DEBUG: 'sources/person2.js' indexed with language 'js'
+00:18:41.665 DEBUG: 'sources/Person4.js' indexed with language 'js'
+00:18:41.665 DEBUG: 'sources/source.js' indexed with language 'js'
+00:18:41.666 DEBUG: 'sources/Me.js' indexed with language 'js'
+00:18:41.666 DEBUG: 'sources/foo3.js' indexed with language 'js'
+00:18:41.672 DEBUG: 'sources/Person3.js' indexed with language 'js'
+00:18:41.674 DEBUG: 'sources/person.js' indexed with language 'js'
+00:18:41.674 DEBUG: 'sources/pig.js' indexed with language 'js'
+00:18:41.675 INFO: 22 files indexed
+00:18:41.679 INFO: Quality profile for js: Sonar way (outdated copy)
+00:18:44.909 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+00:18:44.910 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+00:18:44.925 DEBUG: 'CFamily' skipped because there is no related file in current project
+00:18:44.926 DEBUG: 'gcov' skipped because there is no related file in current project
+00:18:44.926 DEBUG: 'llvm-cov' skipped because there is no related file in current project
+00:18:44.927 DEBUG: 'cppunit' skipped because there is no related file in current project
+00:18:44.927 DEBUG: 'VisualStudioCoverage' skipped because there is no related file in current project
+00:18:44.928 DEBUG: 'bullseye' skipped because there is no related file in current project
+00:18:44.928 DEBUG: 'RPG sensor' skipped because there is no related file in current project
+00:18:44.928 DEBUG: 'PliSquidSensor' skipped because there is no related file in current project
+00:18:44.929 DEBUG: 'T-SQL Sensor' skipped because there is no related file in current project
+00:18:44.929 DEBUG: 'VbSquidSensor' skipped because there is no related file in current project
+00:18:44.930 DEBUG: 'SonarJS Coverage' skipped because one of the required properties is missing
+00:18:44.931 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+00:18:44.931 DEBUG: 'PL/SQL Sensor' skipped because there is no related file in current project
+00:18:44.931 DEBUG: 'C#' skipped because there is no related file in current project
+00:18:44.931 DEBUG: 'C# Properties' skipped because there is no related file in current project
+00:18:44.937 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+00:18:44.938 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+00:18:44.939 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+00:18:44.939 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+00:18:44.940 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+00:18:44.940 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+00:18:44.941 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+00:18:44.948 DEBUG: 'JaCoCoSensor' skipped because there is no related file in current project
+00:18:44.949 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
+00:18:44.949 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
+00:18:44.949 DEBUG: 'SonarTS' skipped because there is no related file in current project
+00:18:44.950 DEBUG: 'SonarTS Coverage' skipped because there is no related file in current project
+00:18:44.951 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+00:18:44.952 DEBUG: 'VB.NET' skipped because there is no related file in current project
+00:18:44.952 DEBUG: 'VB.NET Properties' skipped because there is no related file in current project
+00:18:44.978 DEBUG: 'Visual Basic .NET Tests Coverage Report Import' skipped because there is no related file in current project
+00:18:44.982 DEBUG: '[Deprecated] Visual Basic .NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+00:18:44.983 DEBUG: 'Visual Basic .NET Unit Test Results Import' skipped because there is no related file in current project
+00:18:44.984 DEBUG: 'AbapSquidSensor' skipped because there is no related file in current project
+00:18:44.991 DEBUG: 'SonarSwift' skipped because there is no related file in current project
+00:18:45.029 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+00:18:45.029 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+00:18:45.030 DEBUG: 'CFamily' skipped because there is no related file in current project
+00:18:45.031 DEBUG: 'gcov' skipped because there is no related file in current project
+00:18:45.031 DEBUG: 'llvm-cov' skipped because there is no related file in current project
+00:18:45.031 DEBUG: 'cppunit' skipped because there is no related file in current project
+00:18:45.031 DEBUG: 'VisualStudioCoverage' skipped because there is no related file in current project
+00:18:45.031 DEBUG: 'bullseye' skipped because there is no related file in current project
+00:18:45.031 DEBUG: 'RPG sensor' skipped because there is no related file in current project
+00:18:45.032 DEBUG: 'PliSquidSensor' skipped because there is no related file in current project
+00:18:45.032 DEBUG: 'T-SQL Sensor' skipped because there is no related file in current project
+00:18:45.032 DEBUG: 'VbSquidSensor' skipped because there is no related file in current project
+00:18:45.032 DEBUG: 'SonarJS Coverage' skipped because one of the required properties is missing
+00:18:45.032 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+00:18:45.032 DEBUG: 'PL/SQL Sensor' skipped because there is no related file in current project
+00:18:45.032 DEBUG: 'C#' skipped because there is no related file in current project
+00:18:45.033 DEBUG: 'C# Properties' skipped because there is no related file in current project
+00:18:45.033 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+00:18:45.033 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+00:18:45.033 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+00:18:45.033 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+00:18:45.033 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+00:18:45.033 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+00:18:45.033 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+00:18:45.034 DEBUG: 'JaCoCoSensor' skipped because there is no related file in current project
+00:18:45.034 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
+00:18:45.034 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
+00:18:45.034 DEBUG: 'SonarTS' skipped because there is no related file in current project
+00:18:45.034 DEBUG: 'SonarTS Coverage' skipped because there is no related file in current project
+00:18:45.034 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+00:18:45.034 DEBUG: 'VB.NET' skipped because there is no related file in current project
+00:18:45.035 DEBUG: 'VB.NET Properties' skipped because there is no related file in current project
+00:18:45.035 DEBUG: 'Visual Basic .NET Tests Coverage Report Import' skipped because there is no related file in current project
+00:18:45.035 DEBUG: '[Deprecated] Visual Basic .NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+00:18:45.035 DEBUG: 'Visual Basic .NET Unit Test Results Import' skipped because there is no related file in current project
+00:18:45.035 DEBUG: 'AbapSquidSensor' skipped because there is no related file in current project
+00:18:45.035 DEBUG: 'SonarSwift' skipped because there is no related file in current project
+00:18:45.041 DEBUG: Sensors : SonarJS -> SonarJavaXmlFileSensor -> HTML -> Zero Coverage Sensor -> CPD Block Indexer
+00:18:45.041 INFO: Sensor SonarJS [javascript]
+00:18:45.056 INFO: 22 source files to be analyzed
+00:18:45.154 DEBUG: 'sources/File.js' generated metadata  with charset 'UTF-8'
+00:18:45.599 DEBUG: 'sources/Me.js' generated metadata  with charset 'UTF-8'
+00:18:45.668 DEBUG: 'sources/Person.js' generated metadata  with charset 'UTF-8'
+00:18:45.687 DEBUG: Not enough content in 'sources/Person.js' to have CPD blocks, it will not be part of the duplication detection
+00:18:45.717 DEBUG: 'sources/Person2.js' generated metadata  with charset 'UTF-8'
+00:18:45.774 DEBUG: 'sources/Person3.js' generated metadata  with charset 'UTF-8'
+00:18:45.870 DEBUG: 'sources/Person4.js' generated metadata  with charset 'UTF-8'
+00:18:45.902 DEBUG: Not enough content in 'sources/Person4.js' to have CPD blocks, it will not be part of the duplication detection
+00:18:46.014 DEBUG: 'sources/com/company/Bus.js' generated metadata  with charset 'UTF-8'
+00:18:46.378 DEBUG: 'sources/com/company/Car.js' generated metadata  with charset 'UTF-8'
+00:18:46.454 DEBUG: 'sources/com/company/Trotinette.js' generated metadata  with charset 'UTF-8'
+00:18:46.650 DEBUG: 'sources/com/company/Truck.js' generated metadata  with charset 'UTF-8'
+00:18:46.674 DEBUG: 'sources/com/company/Vehicle.js' generated metadata  with charset 'UTF-8'
+00:18:46.696 DEBUG: 'sources/com/company/Wozek.js' generated metadata  with charset 'UTF-8'
+00:18:46.723 DEBUG: 'sources/dir1/File2.js' generated metadata  with charset 'UTF-8'
+00:18:46.794 DEBUG: 'sources/dir1/File3.js' generated metadata  with charset 'UTF-8'
+00:18:46.817 DEBUG: 'sources/dir1/dir2/pupa.js' generated metadata  with charset 'UTF-8'
+00:18:46.839 DEBUG: 'sources/foo.js' generated metadata  with charset 'UTF-8'
+00:18:46.862 DEBUG: 'sources/foo2.js' generated metadata  with charset 'UTF-8'
+00:18:46.880 DEBUG: 'sources/foo3.js' generated metadata  with charset 'UTF-8'
+00:18:46.902 DEBUG: 'sources/person.js' generated metadata  with charset 'UTF-8'
+00:18:46.944 DEBUG: 'sources/person2.js' generated metadata  with charset 'UTF-8'
+00:18:46.966 DEBUG: 'sources/pig.js' generated metadata  with charset 'UTF-8'
+00:18:46.993 DEBUG: 'sources/source.js' generated metadata  with charset 'UTF-8'
+00:18:47.050 INFO: Sensor SonarJS [javascript] (done) | time=2009ms
+00:18:47.050 INFO: Sensor SonarJavaXmlFileSensor [java]
+00:18:47.051 INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=1ms
+00:18:47.052 INFO: Sensor HTML [web]
+00:18:47.063 INFO: 22/22 source files have been analyzed
+00:18:47.091 INFO: Sensor HTML [web] (done) | time=39ms
+00:18:47.091 INFO: Sensor Zero Coverage Sensor
+00:18:47.180 INFO: Sensor Zero Coverage Sensor (done) | time=89ms
+00:18:47.181 INFO: Sensor CPD Block Indexer
+00:18:47.181 DEBUG: org.sonar.scanner.cpd.deprecated.DefaultCpdBlockIndexer is used for js
+00:18:47.181 DEBUG: No CpdMapping for language js
+00:18:47.181 INFO: Sensor CPD Block Indexer (done) | time=1ms
+00:18:47.197 INFO: SCM provider for this project is: git
+00:18:47.198 INFO: 1 files to be analyzed
+00:18:47.258 DEBUG: readpipe [git, --version],/usr/bin
+00:18:47.305 DEBUG: readpipe may return 'git version 1.8.3.1'
+00:18:47.305 DEBUG: remaining output:
 
-21:36:01.908 DEBUG: readpipe [git, config, --system, --edit],/usr/bin
-21:36:01.911 DEBUG: readpipe may return '/etc/gitconfig'
-21:36:01.911 DEBUG: remaining output:
+00:18:47.308 DEBUG: readpipe [git, config, --system, --edit],/usr/bin
+00:18:47.343 DEBUG: readpipe may return '/etc/gitconfig'
+00:18:47.343 DEBUG: remaining output:
 
-21:36:01.936 DEBUG: Blame file sources/File.js
-21:36:01.943 DEBUG: Blame file sources/Me.js
-21:36:02.043 DEBUG: Unable to blame file sources/Me.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.044 DEBUG: Blame file sources/Person.js
-21:36:02.048 DEBUG: Unable to blame file sources/File.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.048 DEBUG: Blame file sources/Person2.js
-21:36:02.049 DEBUG: Unable to blame file sources/Person2.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.050 DEBUG: Blame file sources/Person3.js
-21:36:02.050 DEBUG: Unable to blame file sources/Person3.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.051 DEBUG: Blame file sources/com/company/Bus.js
-21:36:02.053 DEBUG: Unable to blame file sources/com/company/Bus.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.053 DEBUG: Blame file sources/com/company/Trotinette.js
-21:36:02.054 DEBUG: Unable to blame file sources/com/company/Trotinette.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.054 DEBUG: Blame file sources/com/company/Wozek.js
-21:36:02.056 DEBUG: Unable to blame file sources/com/company/Wozek.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.056 DEBUG: Blame file sources/dir1/File2.js
-21:36:02.057 DEBUG: Unable to blame file sources/dir1/File2.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.057 DEBUG: Blame file sources/dir1/File3.js
-21:36:02.058 DEBUG: Unable to blame file sources/dir1/File3.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.058 DEBUG: Blame file sources/dir1/dir2/pupa.js
-21:36:02.059 DEBUG: Unable to blame file sources/dir1/dir2/pupa.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.059 DEBUG: Blame file sources/foo.js
-21:36:02.060 DEBUG: Unable to blame file sources/Person.js. No blame info at line 2. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.060 DEBUG: Blame file sources/foo2.js
-21:36:02.065 DEBUG: Unable to blame file sources/foo.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.065 DEBUG: Blame file sources/foo3.js
-21:36:02.066 DEBUG: Unable to blame file sources/foo3.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.066 DEBUG: Blame file sources/person.js
-21:36:02.067 DEBUG: Unable to blame file sources/person.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.067 DEBUG: Blame file sources/person2.js
-21:36:02.068 DEBUG: Unable to blame file sources/person2.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.072 DEBUG: Unable to blame file sources/foo2.js. No blame info at line 1. Is file committed? [Author: PersonIdent[Not Committed Yet, , Sat Jun 30 21:36:02 2018 +0200] Source commit: null]
-21:36:02.074 INFO: 0/16 files analyzed
-21:36:02.079 INFO: Sensor SCM Sensor (wrapped) (done) | time=220ms
-21:36:02.079 INFO: Sensor JavaScript Squid Sensor (wrapped)
-21:36:02.087 INFO: 19 source files to be analyzed
-21:36:02.887 INFO: Unit Test Coverage Sensor is started
-21:36:02.888 INFO: Analysing [/opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/report/lcov.dat]
-21:36:02.894 INFO: 19/19 source files have been analyzed
-21:36:02.896 DEBUG: Default value of zero will be saved for file: sources/File.js
-21:36:02.896 DEBUG: Because was not present in LCOV report.
-21:36:02.898 DEBUG: Default value of zero will be saved for file: sources/Me.js
-21:36:02.898 DEBUG: Because was not present in LCOV report.
-21:36:02.898 DEBUG: Default value of zero will be saved for file: sources/Person2.js
-21:36:02.898 DEBUG: Because was not present in LCOV report.
-21:36:02.899 DEBUG: Default value of zero will be saved for file: sources/Person3.js
-21:36:02.899 DEBUG: Because was not present in LCOV report.
-21:36:02.899 DEBUG: Default value of zero will be saved for file: sources/com/company/Bus.js
-21:36:02.899 DEBUG: Because was not present in LCOV report.
-21:36:02.900 DEBUG: Default value of zero will be saved for file: sources/com/company/Trotinette.js
-21:36:02.900 DEBUG: Because was not present in LCOV report.
-21:36:02.906 DEBUG: Default value of zero will be saved for file: sources/com/company/Wozek.js
-21:36:02.906 DEBUG: Because was not present in LCOV report.
-21:36:02.906 DEBUG: Default value of zero will be saved for file: sources/dir1/File2.js
-21:36:02.906 DEBUG: Because was not present in LCOV report.
-21:36:02.907 DEBUG: Default value of zero will be saved for file: sources/dir1/File3.js
-21:36:02.907 DEBUG: Because was not present in LCOV report.
-21:36:02.907 DEBUG: Default value of zero will be saved for file: sources/dir1/dir2/pupa.js
-21:36:02.907 DEBUG: Because was not present in LCOV report.
-21:36:02.907 DEBUG: Default value of zero will be saved for file: sources/foo.js
-21:36:02.907 DEBUG: Because was not present in LCOV report.
-21:36:02.908 DEBUG: Default value of zero will be saved for file: sources/foo2.js
-21:36:02.908 DEBUG: Because was not present in LCOV report.
-21:36:02.908 DEBUG: Default value of zero will be saved for file: sources/foo3.js
-21:36:02.908 DEBUG: Because was not present in LCOV report.
-21:36:02.908 DEBUG: Default value of zero will be saved for file: sources/person.js
-21:36:02.908 DEBUG: Because was not present in LCOV report.
-21:36:02.909 DEBUG: Default value of zero will be saved for file: sources/person2.js
-21:36:02.909 DEBUG: Because was not present in LCOV report.
-21:36:02.909 INFO: Integration Test Coverage Sensor is started
-21:36:02.909 INFO: Overall Coverage Sensor is started
-21:36:02.910 INFO: Analysing [/opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/report/lcov.dat]
-21:36:02.913 DEBUG: Default value of zero will be saved for file: sources/File.js
-21:36:02.913 DEBUG: Because was not present in LCOV report.
-21:36:02.914 DEBUG: Default value of zero will be saved for file: sources/Me.js
-21:36:02.914 DEBUG: Because was not present in LCOV report.
-21:36:02.914 DEBUG: Default value of zero will be saved for file: sources/Person2.js
-21:36:02.914 DEBUG: Because was not present in LCOV report.
-21:36:02.915 DEBUG: Default value of zero will be saved for file: sources/Person3.js
-21:36:02.915 DEBUG: Because was not present in LCOV report.
-21:36:02.915 DEBUG: Default value of zero will be saved for file: sources/com/company/Bus.js
-21:36:02.915 DEBUG: Because was not present in LCOV report.
-21:36:02.916 DEBUG: Default value of zero will be saved for file: sources/com/company/Trotinette.js
-21:36:02.916 DEBUG: Because was not present in LCOV report.
-21:36:02.917 DEBUG: Default value of zero will be saved for file: sources/com/company/Wozek.js
-21:36:02.917 DEBUG: Because was not present in LCOV report.
-21:36:02.918 DEBUG: Default value of zero will be saved for file: sources/dir1/File2.js
-21:36:02.918 DEBUG: Because was not present in LCOV report.
-21:36:02.918 DEBUG: Default value of zero will be saved for file: sources/dir1/File3.js
-21:36:02.918 DEBUG: Because was not present in LCOV report.
-21:36:02.918 DEBUG: Default value of zero will be saved for file: sources/dir1/dir2/pupa.js
-21:36:02.918 DEBUG: Because was not present in LCOV report.
-21:36:02.919 DEBUG: Default value of zero will be saved for file: sources/foo.js
-21:36:02.919 DEBUG: Because was not present in LCOV report.
-21:36:02.925 DEBUG: Default value of zero will be saved for file: sources/foo2.js
-21:36:02.925 DEBUG: Because was not present in LCOV report.
-21:36:02.925 DEBUG: Default value of zero will be saved for file: sources/foo3.js
-21:36:02.925 DEBUG: Because was not present in LCOV report.
-21:36:02.926 DEBUG: Default value of zero will be saved for file: sources/person.js
-21:36:02.926 DEBUG: Because was not present in LCOV report.
-21:36:02.926 DEBUG: Default value of zero will be saved for file: sources/person2.js
-21:36:02.926 DEBUG: Because was not present in LCOV report.
-21:36:02.926 INFO: Sensor JavaScript Squid Sensor (wrapped) (done) | time=847ms
-21:36:02.926 INFO: Sensor C# Unit Tests Coverage Report Import (wrapped)
-21:36:02.926 DEBUG: No coverage property. Skip Sensor
-21:36:02.926 INFO: Sensor C# Unit Tests Coverage Report Import (wrapped) (done) | time=0ms
-21:36:02.926 INFO: Sensor C# Integration Tests Coverage Report Import (wrapped)
-21:36:02.927 DEBUG: No coverage property. Skip Sensor
-21:36:02.927 INFO: Sensor C# Integration Tests Coverage Report Import (wrapped) (done) | time=1ms
-21:36:02.927 INFO: Sensor C# Unit Test Results Import (wrapped)
-21:36:02.927 DEBUG: No unit test results property. Skip Sensor
-21:36:02.927 INFO: Sensor C# Unit Test Results Import (wrapped) (done) | time=0ms
-21:36:02.927 INFO: Sensor SonarJavaXmlFileSensor (wrapped)
-21:36:02.928 INFO: Sensor SonarJavaXmlFileSensor (wrapped) (done) | time=1ms
-21:36:02.928 INFO: Sensor Analyzer for "php.ini" files (wrapped)
-21:36:02.931 INFO: Sensor Analyzer for "php.ini" files (wrapped) (done) | time=2ms
-21:36:02.931 INFO: Sensor Zero Coverage Sensor (wrapped)
-21:36:02.968 INFO: Sensor Zero Coverage Sensor (wrapped) (done) | time=36ms
-21:36:02.968 INFO: Sensor Code Colorizer Sensor (wrapped)
-21:36:02.969 INFO: Sensor Code Colorizer Sensor (wrapped) (done) | time=0ms
-21:36:02.969 INFO: Sensor CPD Block Indexer (wrapped)
-21:36:02.969 INFO: DefaultCpdBlockIndexer is used for js
-21:36:02.969 DEBUG: No CpdMapping for language js
-21:36:02.969 INFO: Sensor CPD Block Indexer (wrapped) (done) | time=0ms
-21:36:02.973 INFO: Calculating CPD for 18 files
-21:36:02.975 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/com/company/Truck.js
-21:36:02.987 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/foo2.js
-21:36:02.988 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/foo3.js
-21:36:02.989 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/com/company/Trotinette.js
-21:36:03.000 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/dir1/File2.js
-21:36:03.000 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/dir1/File3.js
-21:36:03.001 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/person.js
-21:36:03.001 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/Person2.js
-21:36:03.002 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/Person3.js
-21:36:03.002 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/foo.js
-21:36:03.005 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/dir1/dir2/pupa.js
-21:36:03.006 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/File.js
-21:36:03.006 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/Me.js
-21:36:03.007 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/com/company/Vehicle.js
-21:36:03.008 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/com/company/Wozek.js
-21:36:03.010 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/person2.js
-21:36:03.011 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/com/company/Bus.js
-21:36:03.013 DEBUG: Detection of duplications for HARDCORE_TESTER_X:sources/com/company/Car.js
-21:36:03.019 INFO: CPD calculation finished
-21:36:03.143 INFO: Analysis report generated in 116ms, dir size=81 KB
-21:36:03.185 INFO: Analysis reports compressed in 40ms, zip size=50 KB
-21:36:03.185 INFO: Analysis report generated in /opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/.scannerwork/batch-report
-21:36:03.185 DEBUG: Upload report
-21:36:03.255 DEBUG: POST 200 http://localhost:5660/api/ce/submit?projectKey=HARDCORE_TESTER_X&projectName=HARDCORE_TESTER_X | time=69ms
-21:36:03.257 INFO: Analysis report uploaded in 72ms
-21:36:03.257 INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:5660/dashboard/index/HARDCORE_TESTER_X
-21:36:03.257 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
-21:36:03.257 INFO: More about the report processing at http://localhost:5660/api/ce/task?id=AWRSMfWvz8Va4JxmDvO9
-21:36:03.262 DEBUG: Report metadata written to /opt/SS_examples/projects/languages/javascript/javascript-sonar-runner-lcov/.scannerwork/report-task.txt
-21:36:03.265 DEBUG: 'GitHub Pull Request Issue Publisher' skipped because one of the required properties is missing
-21:36:03.266 DEBUG: Post-jobs : 
-21:36:03.336 INFO: ------------------------------------------------------------------------
-21:36:03.336 INFO: EXECUTION SUCCESS
-21:36:03.336 INFO: ------------------------------------------------------------------------
-21:36:03.336 INFO: Total time: 7.048s
-21:36:03.455 INFO: Final Memory: 21M/281M
-21:36:03.455 INFO: ------------------------------------------------------------------------
+00:18:47.454 DEBUG: Blame file sources/File.js
+00:18:47.619 DEBUG: Unable to blame file sources/File.js. No blame info at line 6. Is file committed? [Author: PersonIdent[Not Committed Yet, , Mon Nov 12 00:18:47 2018 +0100] Source commit: null]
+00:18:47.649 INFO: 0/1 files analyzed
+00:18:47.675 INFO: 2 files had no CPD blocks
+00:18:47.675 INFO: Calculating CPD for 20 files
+00:18:47.683 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/com/company/Truck.js
+00:18:47.751 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/person.js
+00:18:47.752 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/com/company/Vehicle.js
+00:18:47.756 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/person2.js
+00:18:47.757 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/source.js
+00:18:47.758 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/foo2.js
+00:18:47.759 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/foo3.js
+00:18:47.760 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/com/company/Bus.js
+00:18:47.765 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/com/company/Car.js
+00:18:47.778 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/com/company/Trotinette.js
+00:18:47.780 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/Person2.js
+00:18:47.780 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/Person3.js
+00:18:47.780 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/com/company/Wozek.js
+00:18:47.782 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/Me.js
+00:18:47.782 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/File.js
+00:18:47.787 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/dir1/File2.js
+00:18:47.788 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/dir1/File3.js
+00:18:47.788 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/foo.js
+00:18:47.789 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/dir1/dir2/pupa.js
+00:18:47.790 DEBUG: Detection of duplications for /opt/ex/javascript-sonar-runner-lcov/sources/pig.js
+00:18:47.795 INFO: CPD calculation finished
+00:18:48.062 INFO: Analysis report generated in 237ms, dir size=103 KB
+00:18:48.258 INFO: Analysis reports compressed in 195ms, zip size=61 KB
+00:18:48.259 INFO: Analysis report generated in /opt/ex/javascript-sonar-runner-lcov/.scannerwork/scanner-report
+00:18:48.259 DEBUG: Upload report
+00:18:48.505 DEBUG: POST 200 http://localhost:6750/api/ce/submit?projectKey=HARDCORE_TESTER_10&projectName=HARDCORE_TESTER_10 | time=237ms
+00:18:48.521 INFO: Analysis report uploaded in 262ms
+00:18:48.523 INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:6750/dashboard/index/HARDCORE_TESTER_10
+00:18:48.523 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+00:18:48.523 INFO: More about the report processing at http://localhost:6750/api/ce/task?id=AWcFEg0gIMhId0WfrzPs
+00:18:48.526 DEBUG: Report metadata written to /opt/ex/javascript-sonar-runner-lcov/.scannerwork/report-task.txt
+00:18:48.539 DEBUG: 'GitHub Pull Request Issue Publisher' skipped because one of the required properties is missing
+00:18:48.541 DEBUG: Post-jobs : 
+00:18:48.572 INFO: Task total time: 10.086 s
+00:18:48.918 INFO: ------------------------------------------------------------------------
+00:18:48.919 INFO: EXECUTION SUCCESS
+00:18:48.919 INFO: ------------------------------------------------------------------------
+00:18:48.919 INFO: Total time: 12.855s
+00:18:49.156 INFO: Final Memory: 32M/294M
+00:18:49.156 INFO: ------------------------------------------------------------------------

@@ -1,5 +1,7 @@
-projectKey=daimler
-serverUrl=http://sq:5660
-dashboardUrl=http://sq:5660/dashboard/index/daimler
-ceTaskId=AWXOejqoBv1rbipQ9-mQ
-ceTaskUrl=http://sq:5660/api/ce/task?id=AWXOejqoBv1rbipQ9-mQ
+projectKey=HARDCORE_TESTER_10
+serverUrl=http://localhost:7500
+serverVersion=7.5.0.20543
+branch=release-1
+dashboardUrl=http://localhost:7500/dashboard?id=HARDCORE_TESTER_10&branch=release-1
+ceTaskId=AWcFcLofyjwaT16MZakY
+ceTaskUrl=http://localhost:7500/api/ce/task?id=AWcFcLofyjwaT16MZakY
