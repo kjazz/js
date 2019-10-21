@@ -11,3 +11,5 @@ Usage
 * Analyze the project with SonarQube using the SonarQube Scanner:
 
         sonar-scanner
+        
+[![Quality gate](http://kris.eu.ngrok.io.ngrok.io/api/project_badges/quality_gate?project=S2302)](http://localhost:9000/dashboard?id=S2302)
