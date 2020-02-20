@@ -28,6 +28,6 @@ Person.prototype = { //TODO
 
     whoAreYou : function() { //TODO
         return this.first + (this.middle ? ' ' + 'foo' + this.middle: '') + ' ' + this.last;  //TODO
-    }
+    } //TODO
 
 };
