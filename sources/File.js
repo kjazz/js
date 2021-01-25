@@ -9,5 +9,5 @@ Person3.prototype = { //TODO
 
     whoAreYou : function() { //TODO
         return this.first + (this.middle ? ' ' + this.middle: '') + ' ' + this.last; //TODO
-    }
+    } //TODO
 };
