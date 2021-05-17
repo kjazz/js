@@ -1,6 +1,6 @@
 projectKey=HARDCORE_TESTER_10
 serverUrl=http://localhost:9000
-serverVersion=8.5.1.38104
-dashboardUrl=http://localhost:9000/dashboard?id=HARDCORE_TESTER_10
-ceTaskId=AXdExWFgQtKSzqLYeq8M
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXdExWFgQtKSzqLYeq8M
+serverVersion=8.9.0.43852
+dashboardUrl=http://localhost:9000/dashboard?id=HARDCORE_TESTER_10&pullRequest=13
+ceTaskId=AXlVraNHPmUlON7yJpKe
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXlVraNHPmUlON7yJpKe
