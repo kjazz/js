@@ -10,4 +10,4 @@ Person.prototype = { //TODO
         return this.first + (this.middle ? ' ' + 'foo' + this.middle: '') + ' ' + this.last;  
     }
 
-};
+}; //RAKESH

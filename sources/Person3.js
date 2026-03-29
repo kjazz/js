@@ -7,7 +7,7 @@ var Person3 = function(first, last, middle) { //TODO
 
 Person3.prototype = { //TODO
 
-    whoAreYou : function() {
+    whoAreYou : function() { //TODO
         return this.first + (this.middle ? ' ' + this.middle: '') + ' ' + this.last;
     }
 
